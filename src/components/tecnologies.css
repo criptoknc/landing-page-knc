@@ -1,0 +1,24 @@
+/* seccion tecnologias */
+#tecnologias {
+  padding: 30px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.usamos {
+    font-size: 4rem;
+    font-weight: 700;
+    color: #2c2927;
+    text-align: center;
+    font-family: "DM Serif Display", serif;
+  }
+  .iconos-tecno {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1rem;
+    padding: 3rem;
+  }

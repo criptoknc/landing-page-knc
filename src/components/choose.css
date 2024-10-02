@@ -1,0 +1,27 @@
+/* seccion elegir */
+.elegir {
+    padding: 1rem 3rem 6rem 6rem;
+  }
+  .texto-basico {
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: #534a45;
+  }
+  .texto-basico-dos {
+    color: #2c2927;
+    font-size: 1.3rem;
+  }
+  @media (max-width: 900px) {
+    .elegir {
+      padding: 16px 50px 50px 50px;
+    }
+    .usamos {
+      font-size: 2.5rem;
+    }
+    .texto-basico {
+      font-size: 1.2rem;
+    }
+    .texto-basico-dos {
+      font-size: 1.2rem;
+    }
+  }

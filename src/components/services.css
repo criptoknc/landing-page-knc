@@ -1,0 +1,44 @@
+/* seccion servicios */
+#servicios {
+  padding: 50px;
+  width: 100%;
+  background: #fbe8a6;
+}
+.servicios-web {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 50px;
+  padding-top: 50px;
+}
+.caja {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: auto;
+  width: 300px;
+}
+.titulo-servicio {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #2c2927;
+  font-family: "DM Serif Display", serif;
+}
+.texto-servicio {
+  font-size: 1.3rem;
+  color: #534a45;
+  padding-bottom: 10px;
+}
+.boton{
+  padding-top: 20px;
+}
+.boton-redirigir {
+  border: 2px solid #2c2927;
+  color: #2c2927;
+  padding: 10px;
+  text-decoration: none;
+}
+.boton-redirigir:hover {
+  background: #f3d97a;
+}

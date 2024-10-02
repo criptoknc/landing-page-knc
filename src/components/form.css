@@ -1,0 +1,91 @@
+/* seccion formulario */
+.formulario {
+  background: #fbe8a6;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 2rem 1.5rem;
+}
+.titulo-contactanos {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #2c2927;
+  font-family: "DM Serif Display", serif;
+}
+.numero {
+  text-align: left;
+  font-size: 1.5rem;
+  padding-top: 20px;
+  color: #534a45;
+  font-weight: 700;
+}
+.mensaje {
+  font-size: 1.2rem;
+}
+.texto-formulario {
+  width: 50%;
+  height: 50vh;
+  float: left;
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  align-items: center;
+  justify-content: center;
+}
+.datos-formulario {
+  width: 50%;
+  float: right;
+  padding: 30px;
+}
+.titulo-formulario {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #2c2927;
+  font-family: "DM Serif Display", serif;
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input, textarea {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+input:focus,
+textarea:focus {
+  border-color: #007bff;
+  outline: none;
+}
+button {
+    padding: 10px;
+    background-color: #fbe8a6;
+    color: #534a45;
+    border: 2px solid #534a45;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  button:hover {
+    background-color: #f7dc7c;
+  }
+  @media (max-width: 900px) {
+    .formulario{
+        flex-direction: column;
+        padding: 0;
+    }
+    .texto-formulario {
+        width: 100%;
+        padding: 0px 50px 0px 50px;
+        align-items: start;
+    }
+    .datos-formulario{
+        width: 100%;
+        padding: 0 50px 50px 50px;
+    }
+  }
