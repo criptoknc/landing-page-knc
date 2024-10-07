@@ -1,11 +1,12 @@
 import React from 'react';
 import '../components/home.css';
+import fondo from '../images/job-collaboration-design-event-office-white-collar-worker-1560411-pxhere.com.jpg';
 
 const Home = () => {
   return (
     <section id="inicio">
       <div className="image-container">
-        <img src="https://c.pxhere.com/photos/fb/fe/american_cellphone_coffee_colleagues_desk_digital_device_discussing_european-1560411.jpg!d" alt="trabajo" />
+        <img src={fondo} alt="trabajo" />
         <div className="overlay"></div>
         <div className="text-overlay">
           <p className="titulo">Hacemos crecer tu negocio en línea</p>
